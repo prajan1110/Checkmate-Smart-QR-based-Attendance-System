@@ -40,8 +40,8 @@ A modern React application for intelligent attendance tracking with real-time en
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd checkmate-frontend
+git clone https://github.com/KOUSHIK212006/CheckMate
+cd CheckMate
 
 # Install dependencies
 npm install
