@@ -2,6 +2,11 @@
 
 A modern React application for intelligent attendance tracking with real-time engagement monitoring, face verification, and comprehensive analytics. Built with a sleek dark theme and glassmorphism design.
 
+## 📋 Project Details
+- **Repository**: [https://github.com/prajan1110/Checkmate-Smart-QR-based-Attendance-System](https://github.com/prajan1110/Checkmate-Smart-QR-based-Attendance-System)
+- **Version**: 1.0.0
+- **License**: MIT
+
 ## ✨ Key Features
 
 ### 🎯 **Smart Attendance Tracking**
@@ -28,6 +33,27 @@ A modern React application for intelligent attendance tracking with real-time en
 - **html5-qrcode** - Camera-based QR scanning
 - **qrcode** - QR code generation
 - **CSS3** - Advanced styling with backdrop-filter and animations
+- **Firebase** - Backend services for data storage and authentication
+
+## 🔐 Credentials Setup
+
+This project uses Firebase for backend services. To set up the credentials:
+
+1. Create a Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
+2. Enable the required services (Authentication, Firestore, etc.)
+3. Copy your Firebase config from the project settings
+4. Create a `.env` file in the root directory with the following variables:
+
+```env
+VITE_FIREBASE_API_KEY=your_api_key_here
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+**Note**: Never commit the `.env` file to version control. The `.env.example` file is provided as a template.
 
 ## 🚀 Quick Start
 
