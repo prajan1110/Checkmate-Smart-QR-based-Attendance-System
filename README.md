@@ -40,8 +40,8 @@ A modern React application for intelligent attendance tracking with real-time en
 
 ```bash
 # Clone the repository
-git clone https://github.com/KOUSHIK212006/CheckMate
-cd CheckMate
+git clone https://github.com/prajan1110/Checkmate-Smart-QR-based-Attendance-System
+cd Checkmate-Smart-QR-based-Attendance-System
 
 # Install dependencies
 npm install
